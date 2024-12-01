@@ -2,28 +2,27 @@
 public class Main {
     public static void main(String[] args) {
 
-        int age = 17;
+        int age = 16;
         if (age >= 18)
         {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний.");
         }
-
-        if (age < 18)
+        else
         {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия нужно подождать.");
         }
 
-        int temp = 2;
+        int temp = -5;
         if (temp >= 5) {
             System.out.println("На улице " + temp + " градусов, можно не надевать шапку.");
         }
-        if (temp < 5) {
+        else {
             System.out.println("На улице " + temp + " градусов, нужно надеть шапку.");
         }
-        int speed = 78;
+        int speed = 54;
         if (speed >= 60) {
             System.out.println("Если скорость " + speed + " придется заплатить штраф.");}
-        if (speed < 60){
+        else {
             System.out.println("Если скорость " + speed + " можно ездить спокойно.");
         }
         int agePerson = 18;

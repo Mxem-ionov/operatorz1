@@ -26,13 +26,13 @@ public class Main {
             System.out.println("Если скорость " + speed + " можно ездить спокойно.");
         }
         int agePerson = 19;
-        if (agePerson >= 2 && agePerson <=6) {
+        if (agePerson >= 2 && agePerson <= 6) {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в детский сад.");
         }
-        else if (agePerson >= 7 && agePerson <=17) {
+        else if (agePerson >= 7 && agePerson <= 17) {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в школу.");
         }
-        else if (agePerson >= 18 && agePerson <24) {
+        else if (agePerson >= 18 && agePerson < 24) {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в институт.");
         }
         else  {
@@ -42,7 +42,7 @@ public class Main {
         if (childAge < 5) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему нельзя кататься на атракционе.");
         }
-        if (childAge >= 5 && childAge <14) {
+        if (childAge >= 5 && childAge < 14) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему можно кататься на атракционе в сопровождении взрослого.");
         }
         if (childAge >= 14){

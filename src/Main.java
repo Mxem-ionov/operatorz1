@@ -26,7 +26,7 @@ public class Main {
             System.out.println("Если скорость " + speed + " можно ездить спокойно.");
         }
         int agePerson = 19;
-        if (agePerson >= 0 && agePerson <=6) {
+        if (agePerson >= 2 && agePerson <=6) {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в детский сад.");
         }
         else if (agePerson >= 7 && agePerson <=17) {
